@@ -28,7 +28,7 @@ export default function Experience() {
       title: "Member of Technical Staff Intern",
       company: "GeeksforGeeks",
       location: "Noida",
-      duration: "Aug 2024 - Sep 2024",
+      duration: "Jun 2025 - Aug 2025",
       description: [
         "Troubleshot and resolved technical issues on the platform",
         "Enhanced platform functionality and user experience",
