@@ -7,24 +7,24 @@ export default function Projects() {
       description:
         "A user-friendly e-commerce platform with seamless online shopping experience, featuring local storage for product management.",
       technologies: ["HTML/CSS", "JavaScript", "NodeJS", "MongoDB"],
-      link: "#",
-      github: "#",
+      link: "https://web-technology-project-8m4b.onrender.com/#",
+      github: "https://github.com/AbhivirSingh/dummy-ecommerce",
     },
     {
       title: "Roostoo Trading Bot",
       description:
         "Python-based automated trading bot using RSI and MACD strategies with risk management (3% stop-loss, 6% take-profit). 2nd Runner-up at IEEE-RGIPT hackathon.",
       technologies: ["Python", "NextJS", "Trading APIs", "TA-Lib"],
-      link: "#",
-      github: "#",
+      link: "https://github.com/AbhivirSingh/Roostoo-CodeWrappers",
+      github: "https://github.com/AbhivirSingh/Roostoo-CodeWrappers",
     },
     {
       title: "QR Code Verification System",
       description:
         "Automated system using Google Apps Script and AutoCrat for generating and verifying QR codes for intern credentials with seamless Excel integration.",
       technologies: ["Google Apps Script", "Excel", "AutoCrat", "ChromeDriver"],
-      link: "#",
-      github: "#",
+      link: "https://oldskoollabs.com/",
+      github: "https://oldskoollabs.com/",
     },
   ]
 
