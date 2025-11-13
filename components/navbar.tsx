@@ -4,7 +4,15 @@ import { useState } from "react"
 import { Menu, X, Moon, Sun } from "lucide-react"
 import Link from "next/link"
 
-export default function Navbar({ darkMode, setDarkMode }) {
+import type { Dispatch, SetStateAction } from 'react'
+
+// 2. Define an interface for your component's props
+interface NavbarProps {
+  darkMode: boolean;
+  setDarkMode: Dispatch<SetStateAction<boolean>>;
+}
+
+export default function Navbar({ darkMode, setDarkMode }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navLinks = [
